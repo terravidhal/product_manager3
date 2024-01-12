@@ -1,0 +1,14 @@
+.Detail {
+    width: 19%;
+    margin: 40px auto;
+    border-radius: 5px;
+}
+.Detail .fields{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.Detail span.infos{
+   font-weight: bold;
+}

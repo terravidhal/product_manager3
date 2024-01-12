@@ -1,0 +1,20 @@
+.ProductList {
+    margin: 40px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.ProductList  .one_product{
+ display: flex;
+ gap: 20px;
+ align-items: center;
+ margin-bottom: 10px;
+}
+
+.ProductList  .one_product a:nth-child(1){
+  flex: 1;
+}
+.ProductList  .one_product a:nth-child(2), .ProductList  .one_product a:nth-child(3){
+  flex: 0.1;
+}
